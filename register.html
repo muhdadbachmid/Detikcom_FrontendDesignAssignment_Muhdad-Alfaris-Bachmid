@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DetikFinance Business Plan Competition 2023 - Register</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Bagian Menu Bagian Atas Kiri -->
+    <header class="top-header">
+      <div class="logo">
+        <h2>detikFinance</h2>
+        <span>BUSINESS PLAN</span><br />
+        <span>Competition 2023</span>
+      </div>
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#mechanism">Mechanism</a></li>
+          <li><a href="index.html#latest-update">Latest Update</a></li>
+          <li><a href="#">Register</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Bagian Tengah - Registrasi -->
+    <section class="center-section">
+      <div class="center-content">
+        <h2 class="registration-heading"></h2>
+        <form action="#" method="post" enctype="multipart/form-data">
+          <div class="form-group">
+            <label for="company-name">Nama Perusahaan<span>*</span></label>
+            <input type="text" id="company-name" name="company-name" required />
+          </div>
+          <div class="form-group">
+            <label for="phone-number">Nomor Telepon<span>*</span></label>
+            <input
+              type="tel"
+              id="phone-number"
+              name="phone-number"
+              pattern="[0-9]+"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="logo">Upload Logo</label>
+            <input type="file" id="logo" name="logo" accept="image/*" />
+            <p>1. Format file : .png .jpg .jpeg</p>
+            <p>2. Maksimal ukuran file 200KB</p>
+            <p>3. Hindari penggunaan logo berwarna putih</p>
+            <p>4. Minimal lebar 300px</p>
+          </div>
+          <div class="form-group">
+            <label for="company-profile">Profil Perusahaan</label>
+            <input
+              type="file"
+              id="company-profile"
+              name="company-profile"
+              accept=".pdf,.doc,.docx"
+            />
+          </div>
+          <div class="form-group">
+            <label for="website-link">Link Website</label>
+            <input type="url" id="website-link" name="website-link" />
+          </div>
+          <div class="terms-agreement">
+            <input type="checkbox" id="terms-agree" required />
+            <label for="terms-agree"
+              >Dengan menekan tombol daftar, saya menyetujui
+              <a href="#">Syarat dan Ketentuan</a></label
+            >
+          </div>
+          <button type="submit" class="register-button">Register</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p>DetikFinance</p>
+        <p>BUSINESS PLAN</p>
+        <p>COMPETITION 2023</p>
+        <p class="small-text">
+          Detikfinance memberikan ruang kepada para startup di Indonesia untuk
+          menunjukan, serta mempromosikan brand mereka untuk mendapatkan
+          perhatian dari venture capital atau angel investor
+        </p>
+        <div class="social-icons">
+          <a href="#" class="icon-link"
+            ><img src="assets\icons\twitter-icon.png" alt="Twitter"
+          /></a>
+          <a href="#" class="icon-link"
+            ><img src="assets\icons\instagram-icon.jpg" alt="Instagram"
+          /></a>
+          <a href="#" class="icon-link"
+            ><img src="assets\icons\facebook-icon.jpg" alt="Facebook"
+          /></a>
+        </div>
+        <p class="copyright">© 2023 Detikcom. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
